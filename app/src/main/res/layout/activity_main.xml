@@ -40,7 +40,7 @@
         android:id="@+id/firstButtonPanel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numberField">
@@ -48,6 +48,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_7"
@@ -56,6 +57,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_8"
@@ -64,6 +66,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_9"
@@ -72,6 +75,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onOperationClick"
             android:text="@string/key_divide"
@@ -82,7 +86,7 @@
         android:id="@+id/secondButtonPanel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstButtonPanel">
@@ -90,6 +94,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_4"
@@ -98,6 +103,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_5"
@@ -106,6 +112,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_6" />
@@ -113,6 +120,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onOperationClick"
             android:text="@string/key_multyply" />
@@ -122,7 +130,7 @@
         android:id="@+id/thirdButtonPanel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/secondButtonPanel">
@@ -130,6 +138,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_1" />
@@ -137,6 +146,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_2"
@@ -145,6 +155,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_3"
@@ -153,6 +164,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onOperationClick"
             android:text="@string/key_minus"
@@ -163,7 +175,7 @@
         android:id="@+id/forthButtonPanel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/thirdButtonPanel">
@@ -171,13 +183,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="onNumberClick"
-            android:text="@string/key_0" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onNumberClick"
             android:text="@string/key_dot" />
@@ -185,6 +191,15 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:onClick="onNumberClick"
+            android:text="@string/key_0" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onOperationClick"
             android:text="@string/key_plus" />
@@ -192,6 +207,7 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_margin="1dp"
             android:layout_weight="1"
             android:onClick="onOperationClick"
             android:text="@string/key_result" />
