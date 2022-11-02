@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp">
@@ -29,7 +30,7 @@
         android:id="@+id/numberField"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:autofillHints="Введите число"
+        android:hint="@string/hint"
         android:inputType="phone"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -49,28 +50,32 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="7" />
+            android:text="@string/key_7"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="8" />
+            android:text="@string/key_8"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="9" />
+            android:text="@string/key_9"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onOperationClick"
-            android:text="/" />
+            android:text="@string/key_divide"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
     <LinearLayout
@@ -87,28 +92,30 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="4" />
+            android:text="@string/key_4"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="5" />
+            android:text="@string/key_5"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="6" />
+            android:text="@string/key_6" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onOperationClick"
-            android:text="*" />
+            android:text="@string/key_multyply" />
     </LinearLayout>
 
     <LinearLayout
@@ -125,28 +132,31 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="1" />
+            android:text="@string/key_1" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="2" />
+            android:text="@string/key_2"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="3" />
+            android:text="@string/key_3"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onOperationClick"
-            android:text="-" />
+            android:text="@string/key_minus"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
     <LinearLayout
@@ -163,28 +173,28 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="0" />
+            android:text="@string/key_0" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onNumberClick"
-            android:text="," />
+            android:text="@string/key_dot" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onOperationClick"
-            android:text="+" />
+            android:text="@string/key_plus" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onOperationClick"
-            android:text="=" />
+            android:text="@string/key_result" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
