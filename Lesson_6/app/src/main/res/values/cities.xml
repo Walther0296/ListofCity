@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Новосибирск</item>
+        <item>Екатеринбург</item>
+        <item>Казань</item>
+    </string-array>
+<integer-array name="cost_of_cities">
+    <item>@drawable/mos</item>
+    <item>@drawable/spb</item>
+    <item>@drawable/nvsb</item>
+    <item>@drawable/ekb</item>
+    <item>@drawable/kzn</item>
+
+</integer-array>
+
+</resources>
